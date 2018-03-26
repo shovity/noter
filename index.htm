@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>New Tab</title>
+  <!-- include imageIndex to window.imageIndex -->
+  <link rel="stylesheet" href="stylesheets/newtab.css">
+</head>
+<body>
+  <!-- wallpaper -->
+  <div id="wall"></div>
+
+  <!-- wave click box -->
+  <div id="waveClickBox"></div>
+
+  <!-- bookmark wave  -->
+  <div id="waveBookmark" class="active">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <!-- bookmark bar -->
+  <!-- <div id="r-snack">
+    <div id="bookmarkBar"></div>
+  </div> -->
+
+  <!-- noter -->
+  <div id="menuFloat">
+    <div></div>
+    <!-- <div id="btnSettings"><a href="settings.html"><span class="icon icon-settings"></a></div>
+    <div id="btnNull"></span></div> -->
+    <div id="btnAddNote" class="main">+</div>
+  </div>
+  <div id="noteBox"></div>
+
+  <!-- context menu -->
+  <div id="contextMenu"></div>
+
+  <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-database.js"></script>
+  <script src="javascripts/image-index.js"></script>
+  <script src="javascripts/newtab.js"></script>
+</body>
+</html>
